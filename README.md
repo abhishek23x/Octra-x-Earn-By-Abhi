@@ -42,6 +42,20 @@ bun start
 
 ---
 
+> If doing in VPS
+
+```
+sudo ufw allow 8888
+sudo snap install bun-js
+bun --version
+git clone https://github.com/octra-labs/wallet-gen
+cd wallet-gen
+bun install
+bun run build
+bun start
+
+```
+
 📢 **JOIN TG FOR UPDATES**: [t.me/EarnByAbhi23](https://t.me/EarnByAbhi23)
 
 
